@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - TravelBooking.com</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: green;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        h1 {
+            color: #fff;
+            margin: 0;
+        }
+        h2 {
+            text-align: center;
+        }
+        .destination {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 30px;
+            padding: 0;
+            list-style-type: none;
+        }
+        .destination-item {
+            flex: 0 0 calc(33.33% - 20px);
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+        }
+        .destination-item:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .destination-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .destination-content {
+            padding: 15px;
+        }
+        .destination-title {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .destination-description {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Destinations</h1>
+    </header>
+    <div class="container">
+        <section class="destination">
+            <ul class="destination-list">
+                <li class="destination-item">
+                    <img src="destination-1.jpg" alt="destination-1" class="destination-image">
+                    <div class="destination-content">
+                        <h2 class="destination-title">Maldives</h2>
+                        <p class="destination-description">The Maldives, an island nation in the Indian Ocean, captivates with its pristine white-sand beaches, vibrant coral reefs, and turquoise waters. Comprising over 1,000 coral islands spread across 26 atolls, it offers a tropical haven for relaxation, water sports, and unparalleled underwater adventures. With luxurious overwater bungalows, world-class diving, and a warm, welcoming culture, the Maldives beckons travelers seeking an idyllic escape in paradise.</p>
+                    </div>
+                </li>
+                <li class="destination-item">
+                    <img src="rome.jpeg" alt="Destination 2" class="destination-image">
+                    <div class="destination-content">
+                        <h2 class="destination-title">Rome</h2>
+                        <p class="destination-description">Rome, the capital city of Italy, is a captivating blend of ancient wonders and modern delights. Renowned for its rich history, iconic landmarks, and vibrant culture, Rome beckons visitors with its timeless charm. From the majestic Colosseum and the awe-inspiring Vatican City, home to St. Peter's Basilica and the Sistine Chapel, to the charming cobblestone streets of Trastevere and the mouthwatering cuisine, Rome offers an unforgettable journey through millennia of civilization. With its bustling piazzas, magnificent fountains, and world-class museums, Rome is a city where the past seamlessly intertwines with the present, inviting travelers to immerse themselves in its enchanting allure.</p>
+                    </div>
+                </li>
+                <li class="destination-item">
+                    <img src="india.jpeg" alt="Destination 3" class="destination-image">
+                    <div class="destination-content">
+                        <h2 class="destination-title">India</h2>
+                        <p class="destination-description">India, a vibrant tapestry of cultures, traditions, and landscapes, captivates with its sheer diversity. From the majestic Himalayas to the serene backwaters of Kerala, every corner of the country tells a story. Its bustling cities pulsate with energy, while ancient temples stand as silent witnesses to its rich history. The aroma of spices fills the air, mingling with the sounds of street vendors and the colors of vibrant festivals. India is a land of contrasts, where modernity coexists with age-old customs, and where every visit unfolds new layers of its captivating charm.</p>
+                    </div>
+                </li>
+                <li class="destination-item">
+                    <img src="uae.jpg" alt="Destination 4" class="destination-image">
+                    <div class="destination-content">
+                        <h2 class="destination-title">UAE</h2>
+                        <p class="destination-description">The United Arab Emirates (UAE), a gleaming jewel in the Arabian Peninsula, is a testament to ambition and innovation. From the towering skyscrapers of Dubai to the pristine beaches of Abu Dhabi, the UAE seamlessly blends tradition with modernity. Its vibrant cities offer a melting pot of cultures, where people from around the world come together to thrive in a dynamic environment. With a thriving economy fueled by oil wealth and a strategic vision for the future, the UAE continues to carve its place on the global stage as a beacon of progress and prosperity.</p>
+                    </div>
+                </li>
+                <li class="destination-item">
+                    <img src="destination-5.jpg" alt="Destination 5" class="destination-image">
+                    <div class="destination-content">
+                        <h2 class="destination-title">Italy</h2>
+                        <p class="destination-description">Italy, the epitome of romance and charm, beckons with its timeless beauty and rich heritage. From the ancient ruins of Rome to the picturesque canals of Venice, every corner of the country exudes a sense of history and artistry. Italian cuisine, celebrated worldwide, tantalizes the taste buds with its flavors and aromas, while the rolling vineyards of Tuscany produce some of the finest wines. Whether it's admiring Michelangelo's masterpiece in Florence or basking in the sun on the Amalfi Coast, Italy offers a sensory feast that leaves a lasting impression on all who visit.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
